@@ -180,6 +180,7 @@ subprojects {
 
 	repositories {
 		mavenLocal()
+		maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
 		mavenCentral()
 		maven { url "http://repo.spring.io/release" }
 		maven { url "http://repo.spring.io/snapshot" }
